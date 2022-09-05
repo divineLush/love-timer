@@ -1,4 +1,4 @@
-var loveDate = new Date('April 23, 2022 19:00:00')
+var loveDate = new Date('September 9, 2022 18:00:00')
 function updateTimer() {
     var totalMinutes = Math.floor(Math.abs(new Date() - loveDate) / 1000 / 60)
     var hours = Math.floor(totalMinutes / 60)
