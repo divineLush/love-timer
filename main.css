@@ -24,6 +24,7 @@ main {
 #timer-wrapper {
     width: 60%;
     position: relative;
+    animation: fadeIn 3s ease;
 }
 
 #timer {
@@ -32,6 +33,7 @@ main {
     top: 40%;
     left: 50%;
     transform: translateX(-50%);
+    white-space: nowrap;
 }
 
 @media (max-width: 768px) {
@@ -45,5 +47,15 @@ main {
 
     #timer {
         top: 35%;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
     }
 }
